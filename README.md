@@ -100,3 +100,395 @@
   Booktitle = {IEEE CVPR Workshops},
   Year      = {2020}
 }
+````md
+<a id="dglee-2024-tcnet"></a>
+
+## TCNet (ThermalChameleon)
+
+```bibtex
+@ARTICLE {dglee-2024-tcnet,
+    AUTHOR = { Dong-Guw Lee and Jeongyun Kim and Younggun Cho and Ayoung Kim },
+    TITLE = { Thermal Chameleon: Task-Adaptive Tone-mapping for Radiometric Thermal-Infrared images },
+    JOURNAL = {IEEE Robotics and Automation Letters (RA-L) },
+    YEAR = { 2024 }
+}
+````
+
+<a id="wacvw9707563"></a>
+
+## TFDL
+
+```bibtex
+@INPROCEEDINGS{9707563,
+ author = {Hu, Litao and Chen, Huaijin and Allebach, Jan P.},
+ title = {Joint Multi-Scale Tone Mapping and Denoising for HDR Image Enhancement},
+ booktitle = {2022 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)},
+ year = {2022},
+ pages = {729-738},
+ doi = {10.1109/WACVW54805.2022.00080}
+}
+```
+
+<a id="li2025difiisr"></a>
+
+## DifIISR (Li25)
+
+```bibtex
+@inproceedings{li2025difiisr,
+  title={Difiisr: A diffusion model with gradient guidance for infrared image super-resolution},
+  author={Li, Xingyuan and Wang, Zirui and Zou, Yang and Chen, Zhixin and Ma, Jun and Jiang, Zhiying and Ma, Long and Liu, Jinyuan},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={7534--7544},
+  year={2025}
+}
+```
+
+<a id="gupta2021toward"></a>
+
+## UGSR (Gupta22)
+
+```bibtex
+@article{gupta2021toward,
+  title={Toward Unaligned Guided Thermal Super-Resolution},
+  author={Gupta, Honey and Mitra, Kaushik},
+  journal={IEEE Transactions on Image Processing},
+  volume={31},
+  pages={433--445},
+  year={2021},
+  publisher={IEEE}
+}
+```
+
+<a id="cvprw9150703"></a>
+
+## TherISuRNet (Chudasama20)
+
+```bibtex
+@INPROCEEDINGS{9150703,
+  author={Chudasama, Vishal and Patel, Heena and Prajapati, Kalpesh and Upla, Kishor and Ramachandra, Raghavendra and Raja, Kiran and Busch, Christoph},
+  booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={TherISuRNet - A Computationally Efficient Thermal Image Super-Resolution Network}, 
+  year={2020},
+  pages={388-397},
+  doi={10.1109/CVPRW50498.2020.00051}
+}
+```
+
+<a id="tcsvt8432397"></a>
+
+## CDN_MRF (He19)
+
+```bibtex
+@ARTICLE{8432397,
+  author={He, Zewei and Tang, Siliang and Yang, Jiangxin and Cao, Yanlong and Ying Yang, Michael and Cao, Yanpeng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Cascaded Deep Networks With Multiple Receptive Fields for Infrared Image Super-Resolution}, 
+  year={2019},
+  volume={29},
+  number={8},
+  pages={2310-2322},
+  doi={10.1109/TCSVT.2018.2864777}
+}
+```
+
+<a id="spl9424970"></a>
+
+## PSRGAN / PSRGAN-TL (Huang21)
+
+```bibtex
+@ARTICLE{9424970, 
+  author={Huang, Yongsong and Jiang, Zetao and Lan, Rushi and Zhang, Shaoqin and Pi, Kui}, 
+  journal={IEEE Signal Processing Letters}, 
+  title={Infrared Image Super-Resolution via Transfer Learning and PSRGAN}, 
+  year={2021}, 
+  volume={28}, 
+  pages={982-986}, 
+  doi={10.1109/LSP.2021.3077801}
+}
+```
+
+<a id="cvprw10678449"></a>
+
+## TISR-Diffusion (Cortes24)
+
+```bibtex
+@INPROCEEDINGS{10678449,
+  author={Cortés-Mendez, Carlos and Hayet, Jean-Bernard},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={Exploring the usage of diffusion models for thermal image super-resolution: a generic, uncertainty-aware approach for guided and non-guided schemes}, 
+  year={2024},
+  pages={3123-3130},
+  doi={10.1109/CVPRW63382.2024.00318}
+}
+```
+
+<a id="tip2020-ddcgan"></a>
+
+## DDcGAN
+
+```bibtex
+@article{ma2020ddcgan,
+  title={DDcGAN: A Dual-discriminator Conditional Generative Adversarial Network for Multi-resolution Image Fusion},
+  author={Ma, Jiayi and Xu, Han and Jiang, Junjun and Mei, Xiaoguang and Zhang, Xiao-Ping},
+  journal={IEEE Transactions on Image Processing},
+  volume={29},
+  pages={4980--4995},
+  year={2020},
+  publisher={IEEE}
+}
+```
+
+<a id="tim9706373"></a>
+
+## HKDnet
+
+```bibtex
+@ARTICLE{9706373,
+  author={Xiao, Wanxin and Zhang, Yafei and Wang, Hongbin and Li, Fan and Jin, Hua},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Heterogeneous Knowledge Distillation for Simultaneous Infrared-Visible Image Fusion and Super-Resolution}, 
+  year={2022},
+  volume={71},
+  pages={1-15},
+  doi={10.1109/TIM.2022.3149101}
+}
+```
+
+<a id="neucom2019-iecgan"></a>
+
+## IE-CGAN (Kuang19)
+
+```bibtex
+@article{10.1016/j.neucom.2018.11.081,
+  author = {Kuang, Xiaodong and Sui, Xiubao and Liu, Yuan and Chen, Qian and Gu, Guohua},
+  title = {Single infrared image enhancement using a deep convolutional neural network},
+  year = {2019},
+  journal = {Neurocomputing},
+  volume = {332},
+  number = {C},
+  pages = {119--128},
+  doi = {10.1016/j.neucom.2018.11.081}
+}
+```
+
+<a id="shen2025310"></a>
+
+## IDTransformer (Shen25)
+
+```bibtex
+@article{SHEN2025310,
+  title = {IDTransformer: Infrared image denoising method based on convolutional transposed self-attention},
+  journal = {Alexandria Engineering Journal},
+  volume = {110},
+  pages = {310-321},
+  year = {2025},
+  issn = {1110-0168},
+  doi = {https://doi.org/10.1016/j.aej.2024.09.101},
+  url = {https://www.sciencedirect.com/science/article/pii/S1110016824011256},
+  author = {Zhengwei Shen and Feiwei Qin and Ruiquan Ge and Changmiao Wang and Kai Zhang and Jie Huang},
+  keywords = {Image denoising, Infrared image, Self-attention, Feature fusion}
+}
+```
+
+<a id="barral_2024_wacv"></a>
+
+## MultiView-FPN (Barral24)
+
+```bibtex
+@InProceedings{Barral_2024_WACV,
+    author    = {Barral, Hortensia and Arias, Pablo and Davy, Axel},
+    title     = {Fixed Pattern Noise Removal for Multi-View Single-Sensor Infrared Camera},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {1669-1678}
+}
+```
+
+<a id="he-dls-nuc-2018"></a>
+
+## DLS-NUC (He18)
+
+```bibtex
+@article{He-DLS-NUC-2018,
+author = {Zewei He and Yanpeng Cao and Yafei Dong and Jiangxin Yang and Yanlong Cao and Christel-L""{o}ic Tisse},
+journal = {Appl. Opt.},
+number = {18},
+pages = {D155--D164},
+title = {Single-image-based nonuniformity correction of uncooled long-wave infrared detectors: a deep-learning approach},
+volume = {57},
+month = {Jun},
+year = {2018},
+doi = {10.1364/AO.57.00D155}
+}
+```
+
+<a id="tcsvt2016-1dgf"></a>
+
+## 1D-GF Destriping (Cao16)
+
+```bibtex
+@article{10.1109/TCSVT.2015.2493443,
+author = {Cao, Yanpeng and Yang, Michael Ying and Tisse, Christel-Loic},
+title = {Effective Strip Noise Removal for Low-Textured Infrared Images Based on 1-D Guided Filtering},
+year = {2016},
+issue_date = {December 2016},
+publisher = {IEEE Press},
+volume = {26},
+number = {12},
+issn = {1051-8215},
+url = {https://doi.org/10.1109/TCSVT.2015.2493443},
+doi = {10.1109/TCSVT.2015.2493443},
+journal = {IEEE Trans. Cir. and Sys. for Video Technol.},
+month = dec,
+pages = {2176–2188},
+numpages = {13}
+}
+```
+
+<a id="saragadam2021deepir"></a>
+
+## DeepIR (Saragadam21)
+
+```bibtex
+@misc{saragadam2021deepir,
+  title={Thermal Image Processing via Physics-Inspired Deep Networks},
+  author={Vishwanath Saragadam and Akshat Dave and Ashok Veeraraghavan and Richard G. Baraniuk},
+  year={2021},
+  note={IEEE Intl. Conf. Computer Vision Workshop on Learning for Computational Imaging (ICCVW-LCI)}
+}
+```
+
+<a id="ijcnn2024-irformer"></a>
+
+## IRFormer (Chen24)
+
+```bibtex
+@inproceedings{DBLP:conf/ijcnn/ChenCZLZL24,
+  author       = {Yijia Chen and
+                  Pinghua Chen and
+                  Xiangxin Zhou and
+                  Yingtie Lei and
+                  Ziyang Zhou and
+                  Mingxian Li},
+  title        = {Implicit Multi-Spectral Transformer: An Lightweight and Effective
+                  Visible to Infrared Image Translation Model},
+  booktitle    = {International Joint Conference on Neural Networks},
+  pages        = {1--8},
+  year         = {2024}
+}
+```
+
+<a id="paranjape2025fvita"></a>
+
+## F-ViTA (Paranjape25)
+
+```bibtex
+@misc{paranjape2025fvitafoundationmodelguided,
+      title={F-ViTA: Foundation Model Guided Visible to Thermal Translation}, 
+      author={Jay N. Paranjape and Celso de Melo and Vishal M. Patel},
+      year={2025},
+      eprint={2504.02801},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.02801}
+}
+```
+
+<a id="kniaz2018thermalgan"></a>
+
+## ThermalGAN (Kniaz18)
+
+```bibtex
+@InProceedings{Kniaz2018,
+author={Kniaz, Vladimir V. and
+Knyaz, Vladimir A. and
+Hlad\r{u}vka, Ji{\v r}{\'{\i}}  and Kropatsch, Walter G. and Mizginov, Vladimir A.},
+title={{ThermalGAN: Multimodal Color-to-Thermal Image Translation for Person Re-Identification in Multispectral Dataset}},
+booktitle={{Computer Vision -- ECCV 2018 Workshops}},
+year={2018},
+publisher={Springer International Publishing}
+}
+```
+
+<a id="tgrs10540003"></a>
+
+## DR-AVIT (Han24)
+
+```bibtex
+@ARTICLE{10540003,
+  author={Han, Zonghao and Zhang, Shun and Su, Yuru and Chen, Xiaoning and Mei, Shaohui},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={DR-AVIT: Toward Diverse and Realistic Aerial Visible-to-Infrared Image Translation}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-13},
+  doi={10.1109/TGRS.2024.3405989}
+}
+```
+
+<a id="jrs-han2023aviid"></a>
+
+## AVIID Dataset+Baseline (Han23)
+
+```bibtex
+@article{han2023aviid,
+  title={Aerial Visible-to-Infrared Image Translation: Dataset, Evaluation, and Baseline},
+  author={Han, Zonghao and others},
+  journal={Journal of Remote Sensing},
+  year={2023},
+  doi={10.34133/remotesensing.0096}
+}
+```
+
+<a id="iros7759059"></a>
+
+## TEN (Choi16)
+
+```bibtex
+@INPROCEEDINGS{7759059,
+  author={Choi, Yukyung and Kim, Namil and Hwang, Soonmin and Kweon, In So},
+  booktitle={2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Thermal Image Enhancement using Convolutional Neural Network}, 
+  year={2016},
+  pages={223-230},
+  doi={10.1109/IROS.2016.7759059}
+}
+```
+
+<a id="tip2020-ddcgan"></a>
+
+## DDcGAN
+
+```bibtex
+@article{ma2020ddcgan,
+  title={DDcGAN: A Dual-discriminator Conditional Generative Adversarial Network for Multi-resolution Image Fusion},
+  author={Ma, Jiayi and Xu, Han and Jiang, Junjun and Mei, Xiaoguang and Zhang, Xiao-Ping},
+  journal={IEEE Transactions on Image Processing},
+  volume={29},
+  pages={4980--4995},
+  year={2020},
+  publisher={IEEE}
+}
+```
+
+<a id="tim9706373"></a>
+
+## HKDnet
+
+```bibtex
+@ARTICLE{9706373,
+  author={Xiao, Wanxin and Zhang, Yafei and Wang, Hongbin and Li, Fan and Jin, Hua},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Heterogeneous Knowledge Distillation for Simultaneous Infrared-Visible Image Fusion and Super-Resolution}, 
+  year={2022},
+  volume={71},
+  pages={1-15},
+  doi={10.1109/TIM.2022.3149101}
+}
+```
+
+```
+::contentReference[oaicite:0]{index=0}
+```
