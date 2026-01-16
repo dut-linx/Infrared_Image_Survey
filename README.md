@@ -489,6 +489,3 @@ publisher={Springer International Publishing}
 }
 ```
 
-```
-::contentReference[oaicite:0]{index=0}
-```
