@@ -104,7 +104,7 @@
 
 <a id="dglee-2024-tcnet"></a>
 
-## TCNet (ThermalChameleon)
+### TCNet (ThermalChameleon)
 
 ```bibtex
 @ARTICLE {dglee-2024-tcnet,
@@ -117,7 +117,7 @@
 
 <a id="wacvw9707563"></a>
 
-## TFDL
+### TFDL
 
 ```bibtex
 @INPROCEEDINGS{9707563,
@@ -132,7 +132,7 @@
 
 <a id="li2025difiisr"></a>
 
-## DifIISR (Li25)
+### DifIISR (Li25)
 
 ```bibtex
 @inproceedings{li2025difiisr,
@@ -146,7 +146,7 @@
 
 <a id="gupta2021toward"></a>
 
-## UGSR (Gupta22)
+### UGSR (Gupta22)
 
 ```bibtex
 @article{gupta2021toward,
@@ -162,7 +162,7 @@
 
 <a id="cvprw9150703"></a>
 
-## TherISuRNet (Chudasama20)
+### TherISuRNet (Chudasama20)
 
 ```bibtex
 @INPROCEEDINGS{9150703,
@@ -177,7 +177,7 @@
 
 <a id="tcsvt8432397"></a>
 
-## CDN_MRF (He19)
+### CDN_MRF (He19)
 
 ```bibtex
 @ARTICLE{8432397,
@@ -194,7 +194,7 @@
 
 <a id="spl9424970"></a>
 
-## PSRGAN / PSRGAN-TL (Huang21)
+### PSRGAN / PSRGAN-TL (Huang21)
 
 ```bibtex
 @ARTICLE{9424970, 
@@ -210,7 +210,7 @@
 
 <a id="cvprw10678449"></a>
 
-## TISR-Diffusion (Cortes24)
+### TISR-Diffusion (Cortes24)
 
 ```bibtex
 @INPROCEEDINGS{10678449,
@@ -225,7 +225,7 @@
 
 <a id="tip2020-ddcgan"></a>
 
-## DDcGAN
+### DDcGAN
 
 ```bibtex
 @article{ma2020ddcgan,
@@ -241,7 +241,7 @@
 
 <a id="tim9706373"></a>
 
-## HKDnet
+### HKDnet
 
 ```bibtex
 @ARTICLE{9706373,
@@ -257,7 +257,7 @@
 
 <a id="neucom2019-iecgan"></a>
 
-## IE-CGAN (Kuang19)
+### IE-CGAN (Kuang19)
 
 ```bibtex
 @article{10.1016/j.neucom.2018.11.081,
@@ -274,7 +274,7 @@
 
 <a id="shen2025310"></a>
 
-## IDTransformer (Shen25)
+### IDTransformer (Shen25)
 
 ```bibtex
 @article{SHEN2025310,
@@ -293,7 +293,7 @@
 
 <a id="barral_2024_wacv"></a>
 
-## MultiView-FPN (Barral24)
+### MultiView-FPN (Barral24)
 
 ```bibtex
 @InProceedings{Barral_2024_WACV,
@@ -308,7 +308,7 @@
 
 <a id="he-dls-nuc-2018"></a>
 
-## DLS-NUC (He18)
+### DLS-NUC (He18)
 
 ```bibtex
 @article{He-DLS-NUC-2018,
@@ -326,7 +326,7 @@ doi = {10.1364/AO.57.00D155}
 
 <a id="tcsvt2016-1dgf"></a>
 
-## 1D-GF Destriping (Cao16)
+### 1D-GF Destriping (Cao16)
 
 ```bibtex
 @article{10.1109/TCSVT.2015.2493443,
@@ -349,7 +349,7 @@ numpages = {13}
 
 <a id="saragadam2021deepir"></a>
 
-## DeepIR (Saragadam21)
+### DeepIR (Saragadam21)
 
 ```bibtex
 @misc{saragadam2021deepir,
@@ -362,7 +362,7 @@ numpages = {13}
 
 <a id="ijcnn2024-irformer"></a>
 
-## IRFormer (Chen24)
+### IRFormer (Chen24)
 
 ```bibtex
 @inproceedings{DBLP:conf/ijcnn/ChenCZLZL24,
@@ -382,7 +382,7 @@ numpages = {13}
 
 <a id="paranjape2025fvita"></a>
 
-## F-ViTA (Paranjape25)
+### F-ViTA (Paranjape25)
 
 ```bibtex
 @misc{paranjape2025fvitafoundationmodelguided,
@@ -398,7 +398,7 @@ numpages = {13}
 
 <a id="kniaz2018thermalgan"></a>
 
-## ThermalGAN (Kniaz18)
+### ThermalGAN (Kniaz18)
 
 ```bibtex
 @InProceedings{Kniaz2018,
@@ -414,7 +414,7 @@ publisher={Springer International Publishing}
 
 <a id="tgrs10540003"></a>
 
-## DR-AVIT (Han24)
+### DR-AVIT (Han24)
 
 ```bibtex
 @ARTICLE{10540003,
@@ -431,7 +431,7 @@ publisher={Springer International Publishing}
 
 <a id="jrs-han2023aviid"></a>
 
-## AVIID Dataset+Baseline (Han23)
+### AVIID Dataset+Baseline (Han23)
 
 ```bibtex
 @article{han2023aviid,
@@ -445,7 +445,7 @@ publisher={Springer International Publishing}
 
 <a id="iros7759059"></a>
 
-## TEN (Choi16)
+### TEN (Choi16)
 
 ```bibtex
 @INPROCEEDINGS{7759059,
@@ -460,7 +460,7 @@ publisher={Springer International Publishing}
 
 <a id="tip2020-ddcgan"></a>
 
-## DDcGAN
+### DDcGAN
 
 ```bibtex
 @article{ma2020ddcgan,
@@ -476,7 +476,7 @@ publisher={Springer International Publishing}
 
 <a id="tim9706373"></a>
 
-## HKDnet
+### HKDnet
 
 ```bibtex
 @ARTICLE{9706373,
