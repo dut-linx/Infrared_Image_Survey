@@ -100,7 +100,8 @@
   Booktitle = {IEEE CVPR Workshops},
   Year      = {2020}
 }
-````md
+```
+
 <a id="dglee-2024-tcnet"></a>
 
 ## TCNet (ThermalChameleon)
@@ -112,7 +113,7 @@
     JOURNAL = {IEEE Robotics and Automation Letters (RA-L) },
     YEAR = { 2024 }
 }
-````
+```
 
 <a id="wacvw9707563"></a>
 
