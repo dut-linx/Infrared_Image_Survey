@@ -44,6 +44,7 @@
 | CDN_MRF (He19) | Cascaded Deep Networks With Multiple Receptive Fields for Infrared Image Super-Resolution | [PDF](https://research.utwente.nl/files/481835696/Cascaded_Deep_Networks_With_Multiple_Receptive_Fields_for_Infrared_Image_Super-Resolution.pdf) | [GitHub](https://github.com/hezw2016/CDN_MRF) | IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) (2019) | 红外图像超分辨率重建 | [BibTeX](#tcsvt8432397) |
 | PSRGAN-TL (Huang21) | Infrared Image Super-Resolution via Transfer Learning and PSRGAN | [DOI](https://doi.org/10.1109/LSP.2021.3077801) | [GitHub](https://github.com/yongsongH/Infrared_Image_SR_PSRGAN) | IEEE Signal Processing Letters (SPL) (2021) | 红外图像超分辨率重建 | [BibTeX](#spl9424970) |
 | TISR-Diffusion (Cortes24) | Exploring the usage of diffusion models for thermal image super-resolution: a generic, uncertainty-aware approach for guided and non-guided schemes | [PDF](https://openaccess.thecvf.com/content/CVPR2024W/PBVS/papers/Cortes-Mendez_Exploring_the_Usage_of_Diffusion_Models_for_Thermal_Image_Super-resolution_CVPRW_2024_paper.pdf) | [GitHub](https://github.com/alcros33/ThermalSuperResolution) | CVPRW (PBVS) (2024) | 红外图像超分辨率重建 | [BibTeX](#cvprw10678449) |
+| CoRPLE | Contourlet Residual for Prompt Learning Enhanced Infrared Image Super-Resolution | [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00391.pdf) | [GitHub](https://github.com/hey-it-s-me/CoRPLE) | ECCV 2024 | 红外图像超分辨率 | [↓](#bibtex-corple) |
 
 ---
 
@@ -65,6 +66,7 @@
 | DLS-NUC (He18) | Single-image-based nonuniformity correction of uncooled long-wave infrared detectors: a deep-learning approach | [Optica](https://opg.optica.org/ao/abstract.cfm?URI=ao-57-18-D155) | [GitHub](https://github.com/hezw2016/DLS-NUC) | Applied Optics (Appl. Opt.) (2018) | 红外图像去噪 / NUC | [BibTeX](#he-dls-nuc-2018) |
 | 1D-GF Destriping (Cao16) | Effective Strip Noise Removal for Low-Textured Infrared Images Based on 1-D Guided Filtering | [DOI](https://dl.acm.org/doi/abs/10.1109/TCSVT.2015.2493443) | [GitHub](https://github.com/hezw2016/1D-GF) | IEEE TCSVT (2016) | 红外图像去条带噪声 | [BibTeX](#tcsvt2016-1dgf) |
 | DeepIR (Saragadam21) | Thermal Image Processing via Physics-Inspired Deep Networks | [arXiv](https://arxiv.org/abs/2108.07973) | [GitHub](https://github.com/vishwa91/DeepIR) | ICCVW (LCI) (2021) | 红外图像去噪 / 红外图像超分辨率 | [BibTeX](#saragadam2021deepir) |
+| SNRWDNN | Wavelet Deep Neural Network for Stripe Noise Removal | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8678750) | [GitHub](https://github.com/jtguan/Wavelet-Deep-Neural-Network-for-Stripe-Noise-Removal) | IEEE Access 2019 | 红外图像去噪 / 条纹噪声去除 | [↓](#bibtex-snrwdnn) |
 
 ---
 
@@ -77,6 +79,10 @@
 | ThermalGAN (Kniaz18) | ThermalGAN: Multimodal Color-to-Thermal Image Translation for Person Re-Identification in Multispectral Dataset | [PDF](https://openaccess.thecvf.com/content_ECCVW_2018/papers/11134/Kniaz_ThermalGAN_Multimodal_Color-to-Thermal_Image_Translation_for_Person_Re-Identification_in_Multispectral_ECCVW_2018_paper.pdf) | [GitHub](https://github.com/vlkniaz/ThermalGAN) | ECCVW (2018) | 依据可见光生成红外图像 | [BibTeX](#kniaz2018thermalgan) |
 | DR-AVIT (Han24) | DR-AVIT: Toward Diverse and Realistic Aerial Visible-to-Infrared Image Translation | [DOI](https://doi.org/10.1109/TGRS.2024.3405989) | [GitHub](https://github.com/silver-hzh/DR-AVIT) | IEEE Transactions on Geoscience and Remote Sensing (TGRS) (2024) | 依据可见光生成红外图像（航拍） | [BibTeX](#tgrs10540003) |
 | AVIID Dataset+Baseline (Han23) | Aerial Visible-to-Infrared Image Translation: Dataset, Evaluation, and Baseline | [DOI](https://spj.science.org/doi/10.34133/remotesensing.0096) | [GitHub](https://github.com/silver-hzh/Averial-visible-to-infrared-image-translation) | Journal of Remote Sensing (JRS) (2023) | 可见-红外翻译数据集 + 基线 | [BibTeX](#jrs-han2023aviid) |
+| InfraGAN | InfraGAN: A GAN architecture to transfer visible images to infrared domain | [Paper](https://www.sciencedirect.com/science/article/pii/S0167865522000332?) | [GitHub](https://github.com/makifozkanoglu/InfraGAN) | Pattern Recognition Letters 2022 | 可见光 → 红外域 / 域迁移 / GAN | [↓](#bibtex-infragan) |
+| ClawGAN | ClawGAN: Claw connection-based generative adversarial networks for facial image translation in thermal to RGB visible light | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417421015785?) | [GitHub](https://github.com/Luoyi3819/ClawGAN) | Expert Systems with Applications 2022 | 热红外（thermal）→ 可见光RGB / 人脸翻译 | [↓](#bibtex-clawgan) |
+| EdgeGuided-RGB2TIR | Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels | [arXiv](https://arxiv.org/abs/2301.12689) | [GitHub](https://github.com/RPM-Robotics-Lab/sRGB-TIR) | ICRA 2023 | RGB → TIR 翻译；用于生成TIR训练数据（光流/检测等） | [↓](#bibtex-edgeguided-rgb2tir) |
+| PID | PID: Physics-Informed Diffusion Model for Infrared Image Generation | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320325004765) | [GitHub](https://github.com/fangyuanmao/PID) | Pattern Recognition (Vol.169) 2026 | RGB → IR 生成 / 扩散模型 + 物理约束 | [↓](#bibtex-pid) |
 
 ---
 
@@ -490,3 +496,90 @@ publisher={Springer International Publishing}
 }
 ```
 
+
+### CoRPLE
+
+<a id="bibtex-corple"></a>
+```bibtex
+@inproceedings{li2024contourlet,
+  title={Contourlet residual for prompt learning enhanced infrared image super-resolution},
+  author={Li, Xingyuan and Liu, Jinyuan and Chen, Zhixin and Zou, Yang and Ma, Long and Fan, Xin and Liu, Risheng},
+  booktitle={European Conference on Computer Vision},
+  pages={270--288},
+  year={2024},
+  organization={Springer}
+}
+```
+
+### SNRWDNN
+<a id="bibtex-snrwdnn"></a>
+```bibtex
+@ARTICLE{8678750,
+  author={Guan, Juntao and Lai, Rui and Xiong, Ai},
+  journal={IEEE Access},
+  title={Wavelet Deep Neural Network for Stripe Noise Removal},
+  year={2019},
+  volume={7},
+  number={},
+  pages={44544-44554},
+  keywords={Wavelet domain;Wavelet transforms;Training;Neural networks;Deep learning;Image denoising;Neural networks;image denoising;infrared image sensors;wavelet transforms},
+  doi={10.1109/ACCESS.2019.2908720}
+}
+```
+
+### InfraGAN
+<a id="bibtex-infragan"></a>
+```bibtex
+@article{OZKANOGLU202269,
+  title = {InfraGAN: A GAN architecture to transfer visible images to infrared domain},
+  journal = {Pattern Recognition Letters},
+  volume = {155},
+  pages = {69-76},
+  year = {2022},
+  issn = {0167-8655},
+  doi = {https://doi.org/10.1016/j.patrec.2022.01.026},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167865522000332},
+  author = {Mehmet Akif Özkanoğlu and Sedat Ozer},
+  keywords = {Domain transfer, GANs, Infrared image generation},
+  abstract = {Utilizing both visible and infrared (IR) images in various deep learning based computer vision tasks has been a recent trend. Consequently, datasets having both visible and IR image pairs are desired in many applications. However, while large image datasets taken at the visible spectrum can be found in many domains, large IR-based datasets are not easily available in many domains. The lack of IR counterparts of the available visible image datasets limits existing deep algorithms to perform on IR images effectively. In this paper, to overcome with that challenge, we introduce a generative adversarial network (GAN) based solution and generate the IR equivalent of a given visible image by training our deep network to learn the relation between visible and IR modalities. In our proposed GAN architecture (InfraGAN), we introduce using structural similarity as an additional loss function. Furthermore, in our discriminator, we do not only consider the entire image being fake or real but also each pixel being fake or real. We evaluate our comparative results on three different datasets and report the state of the art results over five metrics when compared to Pix2Pix and ThermalGAN architectures from the literature. We report up to +16% better performance in Structural Similarity Index Measure (SSIM) over Pix2Pix and +8% better performance over ThermalGAN for VEDAI dataset. Further gains on different metrics and on different datasets are also reported in our experiments section.}
+}
+```
+
+### ClawGAN
+<a id="bibtex-clawgan"></a>
+```bibtex
+@article{Luo2022ClawGAN,
+  author = {Yi Luo and Dechang Pi and Yue Pan and Lingqiang Xie and Wen Yu and Yufei Liu},
+  title = {ClawGAN: Claw connection-based generative adversarial networks for facial image translation in thermal to {RGB} visible light},
+  journal = {Expert Systems with Applications},
+  year = {2022},
+  volume = {191},
+  pages = {116269}
+}
+```
+
+### EdgeGuided-RGB2TIR
+<a id="bibtex-edgeguided-rgb2tir"></a>
+```bibtex
+@ARTICLE{lee-2023-edgemultiRGB2TIR,
+  author={Lee, Dong-Guw and Kim, Ayoung},
+  conference={IEEE International Conference on Robotics and Automation},
+  title={Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels},
+  year={2023},
+  status={underreview}
+}
+```
+
+### PID
+<a id="bibtex-pid"></a>
+```bibtex
+@article{mao2026pid,
+  title={PID: physics-informed diffusion model for infrared image generation},
+  author={Mao, Fangyuan and Mei, Jilin and Lu, Shun and Liu, Fuyang and Chen, Liang and Zhao, Fangzhou and Hu, Yu},
+  journal={Pattern Recognition},
+  volume={169},
+  pages={111816},
+  year={2026},
+  publisher={Elsevier}
+}
+```
