@@ -7,11 +7,11 @@
 
 ## Table of Contents
 - [Thermal Infrared Imaging / Tone Mapping](#thermal-infrared-imaging--tone-mapping)
-- [Infrared Denoising](#infrared-denoising)
-- [Infrared Denoising / NUC / Destriping](#infrared-denoising--nuc--destriping)
 - [Infrared Super-Resolution](#infrared-super-resolution)
-- [Infrared Joint Enhancement](#infrared-joint-enhancement)
 - [Infrared Contrast Enhancement](#infrared-contrast-enhancement)
+- [Infrared Joint Enhancement](#infrared-joint-enhancement)
+- [Infrared Denoising / NUC / Destriping](#infrared-denoising--nuc--destriping)
+
 
 
 ---
