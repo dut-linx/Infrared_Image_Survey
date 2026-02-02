@@ -59,16 +59,37 @@
 
 ## Infrared Denoising / NUC / Destriping
 
-| 简称 | 标题 | 论文路径 | 代码路径 | 发表期刊/会议 | 对应任务 | 引用 |
+## Infrared Denoising / NUC / Destriping
+
+| Method | Title | Paper Link | Code Link | Journal / Conference | Task | Method |
 |---|---|---|---|---|---|---|
-| IDTransformer (Shen25) | IDTransformer: Infrared image denoising method based on convolutional transposed self-attention | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1110016824011256) | [GitHub](https://github.com/szw811/IDTransformer) | Alexandria Engineering Journal (AEJ) (2025) | 红外图像去噪 | [BibTeX](#shen2025310) |
-| MultiView-FPN (Barral24) | Fixed Pattern Noise Removal for Multi-View Single-Sensor Infrared Camera | [PDF](https://openaccess.thecvf.com/content/WACV2024/papers/Barral_Fixed_Pattern_Noise_Removal_for_Multi-View_Single-Sensor_Infrared_Camera_WACV_2024_paper.pdf) | [GitHub](https://github.com/centreborelli/multiview-fpn) | WACV (2024) | 红外图像去噪（FPN） | [BibTeX](#barral_2024_wacv) |
-| DLS-NUC (He18) | Single-image-based nonuniformity correction of uncooled long-wave infrared detectors: a deep-learning approach | [Optica](https://opg.optica.org/ao/abstract.cfm?URI=ao-57-18-D155) | [GitHub](https://github.com/hezw2016/DLS-NUC) | Applied Optics (Appl. Opt.) (2018) | 红外图像去噪 / NUC | [BibTeX](#he-dls-nuc-2018) |
-| 1D-GF Destriping (Cao16) | Effective Strip Noise Removal for Low-Textured Infrared Images Based on 1-D Guided Filtering | [DOI](https://dl.acm.org/doi/abs/10.1109/TCSVT.2015.2493443) | [GitHub](https://github.com/hezw2016/1D-GF) | IEEE TCSVT (2016) | 红外图像去条带噪声 | [BibTeX](#tcsvt2016-1dgf) |
-| DeepIR (Saragadam21) | Thermal Image Processing via Physics-Inspired Deep Networks | [arXiv](https://arxiv.org/abs/2108.07973) | [GitHub](https://github.com/vishwa91/DeepIR) | ICCVW (LCI) (2021) | 红外图像去噪 / 红外图像超分辨率 | [BibTeX](#saragadam2021deepir) |
-| SNRWDNN | Wavelet Deep Neural Network for Stripe Noise Removal | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8678750) | [GitHub](https://github.com/jtguan/Wavelet-Deep-Neural-Network-for-Stripe-Noise-Removal) | IEEE Access 2019 | 红外图像去噪 / 条纹噪声去除 | [BibTeX](#bibtex-snrwdnn) |
+| ASCNet | ASCNet: Asymmetric Sampling Correction Network for Infrared Image Destriping | [arXiv](https://arxiv.org/abs/2401.15578) | [GitHub](https://github.com/xdFai/ASCNet) | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2025 | Infrared NUC | CNN |
+| 1D-GF (Cao16) | Effective Stripe Noise Removal for Low-Textured Infrared Images Based on 1-D Guided Filtering | [DOI](https://doi.org/10.1109/TCSVT.2015.2493443) | [GitHub](https://github.com/hezw2016/1D-GF) | IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2016 | Infrared NUC | Traditional |
+| SemiCal-FPN | Fixed Pattern Noise Removal Based on a Semi-Calibration Method | [DOI](https://doi.org/10.1109/TPAMI.2023.3274826) | — | IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023 | Infrared NUC | Optimization |
+| MultiView-FPN (Barral24) | Fixed Pattern Noise Removal for Multi-View Single-Sensor Infrared Camera | [WACV](https://openaccess.thecvf.com/content/WACV2024/html/Barral_Fixed_Pattern_Noise_Removal_for_Multi-View_Single-Sensor_Infrared_Camera_WACV_2024_paper.html) | [GitHub](https://github.com/centreborelli/multiview-fpn) | WACV, 2024 | Infrared NUC | CNN |
+| MIRE | Non-uniformity Correction of Infrared Images by Midway Equalization | [IPOL](https://www.ipol.im/pub/art/2012/glmt-mire/) | [GitHub](https://github.com/tguillemot/midway_equalization) | Image Processing On Line (IPOL), 2012 | Infrared NUC | Traditional |
+| DestripeCycleGAN | DestripeCycleGAN: Stripe Simulation CycleGAN for Unsupervised Infrared Image Destriping | [arXiv](https://arxiv.org/abs/2402.09101) | [GitHub](https://github.com/xdFai/DestripeCycleGAN) | IEEE Transactions on Instrumentation and Measurement (TIM), 2024 | Infrared NUC | GAN |
+| DMRN | Infrared Aerothermal Nonuniformity Correction via Deep Multiscale Residual Network | [DOI](https://doi.org/10.1109/LGRS.2019.2893519) | — | IEEE Geoscience and Remote Sensing Letters (GRSL), 2019 | Infrared NUC | CNN |
+| CNN-FPNR | Fixed Pattern Noise Reduction for Infrared Images Based on Cascade Residual Attention CNN | [arXiv](https://arxiv.org/abs/1910.09858) | — | Neurocomputing, 2020 | Infrared NUC | CNN |
+| TV-DIP | Thermal Imaging Spatial Noise Removal via Deep Image Prior and Step-Variable Total Variation Regularization | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1350449523001158) | [GitHub](https://github.com/brunolinux/TV-DIP) | Infrared Physics & Technology, 2023 | Infrared NUC | Hybrid |
+| Cheby-Fit | Multi-Scale Thermal Radiation Effects Correction via Fast Surface Fitting with Chebyshev Polynomials | [DOI](https://doi.org/10.1364/AO.465157) | — | Applied Optics, 2022 | Infrared NUC | Polynomial |
+| AHBC | Thermal Radiation Bias Correction for Infrared Images Using Huber Function-Based Loss | [DOI](https://doi.org/10.1109/TGRS.2024.3370966) | — | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2024 | Infrared NUC | Optimization |
+| DLS-NUC (He18) | Single-Image-Based Nonuniformity Correction of Uncooled Long-Wave Infrared Detectors: A Deep-Learning Approach | [DOI](https://doi.org/10.1364/AO.57.00D155) | [GitHub](https://github.com/hezw2016/DLS-NUC) | Applied Optics, 2018 | Infrared NUC | CNN |
+| SNRWDNN | Wavelet Deep Neural Network for Stripe Noise Removal | [IEEE](https://ieeexplore.ieee.org/document/8678750) | [GitHub](https://github.com/jtguan/Wavelet-Deep-Neural-Network-for-Stripe-Noise-Removal) | IEEE Access, 2019 | Infrared NUC | CNN |
+| IDTransformer | IDTransformer: Infrared Image Denoising Method Based on Convolutional Transposed Self-Attention | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1110016824011256) | [GitHub](https://github.com/szw811/IDTransformer) | Alexandria Engineering Journal (AEJ), 2025 | Infrared Image Denoising | Transformer |
+| MLFAN | Infrared Image Denoising via Adversarial Learning with Multi-Level Feature Attention Network | [DOI](https://doi.org/10.1016/j.infrared.2022.104527) | — | Infrared Physics & Technology, 2023 | Infrared Image Denoising | CNN |
+| SMNet | Infrared Thermal Image Denoising with Symmetric Multi-Scale Sampling Network | [DOI](https://doi.org/10.1016/j.infrared.2023.104909) | — | Infrared Physics & Technology, 2023 | Infrared Image Denoising | CNN |
+| MIVDN | Exploring Video Denoising in Thermal Infrared Imaging: Physics-Inspired Noise Generator, Dataset, and Model | [PubMed](https://pubmed.ncbi.nlm.nih.gov/38652635/) | — | IEEE Transactions on Image Processing (TIP), 2024 | Infrared Image Denoising | CNN |
+| UTV | Toward Optimal Destriping of MODIS Data Using a Unidirectional Variational Model | [DOI](https://doi.org/10.1109/TGRS.2011.2119399) | — | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2011 | Infrared Image Denoising | Optimization |
+| LRSID | Remote Sensing Image Stripe Noise Removal: From Image Decomposition Perspective | [DOI](https://doi.org/10.1109/TGRS.2016.2594080) | — | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2016 | Infrared Image Denoising | Optimization |
+| TSWEU | Toward Universal Stripe Removal via Wavelet-Based Deep Convolutional Neural Network | [DOI](https://doi.org/10.1109/TGRS.2019.2957153) | — | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2020 | Infrared Image Denoising | CNN |
+
 
 ---
+
+
+
+
 
 ## Visible → Infrared / Thermal Translation
 
