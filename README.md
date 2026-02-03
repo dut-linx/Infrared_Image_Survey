@@ -104,7 +104,7 @@
 | UTV | Toward Optimal Destriping of MODIS Data Using a Unidirectional Variational Model | [DOI](https://doi.org/10.1109/TGRS.2011.2119399) | — | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2011 | Infrared Image Denoising | Optimization |
 | LRSID | Remote Sensing Image Stripe Noise Removal: From Image Decomposition Perspective | [DOI](https://doi.org/10.1109/TGRS.2016.2594080) | — | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2016 | Infrared Image Denoising | Optimization |
 | TSWEU | Toward Universal Stripe Removal via Wavelet-Based Deep Convolutional Neural Network | [DOI](https://doi.org/10.1109/TGRS.2019.2957153) | — | IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2020 | Infrared Image Denoising | CNN |
-
+| STA-NUC | Spatial and temporal adaptive nonuniformity correction for infrared focal plane arrays | [Optica/Optics Express](https://opg.optica.org/abstract.cfm?uri=oe-30-25-44681) | — | Optics Express, 2022 | IInfrared NUC | Traditional |
 
 ---
 
